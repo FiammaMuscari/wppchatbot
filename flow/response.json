@@ -1,12 +1,7 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
-            "Prueba escribiendo *hola* \n"
+            "🤖 Prueba escribiendo *hola* \n"
         ],
         "media":null,
         "trigger":null
@@ -22,127 +17,82 @@
     },
     "STEP_1":{
         "replyMessage":[
-            "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-            "escribe *cursos* o *info* o escribe *audio*"
+            "Hola! 🐉 Bienvenido a mi CHATBOT de Whatsapp,",
+            "soy el asistente de *Fiamma Muscari*👩🏻‍💻  \n",
+            "\n Si quieres ver los recursos que recomiendo sobre programación\n ",
+            "escribe la palabra *info* 📚"
         ],
-        "media":"https://media2.giphy.com/media/VQJu0IeULuAmCwf5SL/giphy.gif",
-        "trigger":null,
-        "actions":{
-            "title":"¿Que te interesa ver?",
-            "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
-            "footer":"Gracias",
-            "buttons":[
-                {"body":"Cursos"},
-                {"body":"Youtube"},
-                {"body":"Telegram"}
-            ]
-        }
+        "media":null,
+        "trigger":null
     },
     "STEP_2":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "Perfecto, te voy a pasar la lista \n ",
+            "de los temas que tengo para ti 😄 \n",
+            "📌 *Apuntes* de Majo 📕 \n",
+            "📌 *Freecode* aprende a programar⭐️ \n",
+            "📌 *Youtube* vídeos tutoriales de youtubers y challenges interesantes \n",
+            "📌 *Discord* para ser parte de una linda comunidad! 💯 \n",
+            "Escribe la palabra del tema que quieras 💖 \n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "media": null,
         "trigger":null
     },
     "STEP_2_1":{
         "replyMessage":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
-            "😎😎😎"
+            "Si te interesan los APUNTES DE MAJO hace click en el siguiente link \n",
+            "https://losapuntesdemajo.vercel.app \n\n",
+            "En esta web vas a encontrar apuntes sobre lenguajes y temas de programación. ¡Gratis! 🌸 \n\n"
         ],
-        "media":"https://i.imgur.com/Q0a5UQI.jpg",
+        "media":null,
         "trigger":null
     },
     "STEP_2_2":{
         "replyMessage":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
-            "🤖"
+            "Si te interesa FREECODECAMP tienes disponible su web oficial \n",
+            "https://www.freecodecamp.org/espanol/ \n\n",
+            "Aprende a programar gratis, construye proyectos y obtén certificaciones. 💡"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_2_3":{
         "replyMessage":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
+            "Elegiste Youtube acá te mostrare los mejores creadores de contenido en programación hasta la fecha! \n",
+            "📌 *FAZT* https://www.youtube.com/c/FaztCode/videos\n",
+            "📌 *Leifer Mendez* https://www.youtube.com/c/LeiferMendez/videos \n",
+            "📌 *Goncy* https://www.youtube.com/c/GonzaloPozzo/videos \n",
+            "📌 *Linkfy* https://www.youtube.com/c/Linkfydev/videos\n",
+            "Hora de aprender! 😮"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_2_4":{
         "replyMessage":[
-            "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-            "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-            "😮😮"
+            "Sientete bienvenid@ a la mejor comunidad de Discord sobre programación\n",
+            "https://discord.gonzalopozzo.com \n",
+            "Este canal pertenece a Goncy y sus moderadores."
         ],
         "media":null,
         "trigger":null
     },
     "STEP_3":{
         "replyMessage":[
-            "¿Ok cual curso de intereso? \n",
-            "*angular* , *node*, *ngrx*, *aws*"
+            "¿Qué contenido te interesa? \n",
+            "*apuntes* , *freecode*, *youtube*, *discord*"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_4":{
         "replyMessage":[
-            "Gracias a ti! \n"
-        ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
-        "trigger":null
-    },
-    "STEP_5":{
-        "replyMessage":[
-            "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
+            "Gracias a ti! \n",
+            "Te dejo mi página web para que veas mis proyectos https://fiammamuscari.vercel.app \n",
+            "Y mi github para que veas los repositorios que gustes https://github.com/fiammamuscari \n",
+            "¡Saludos! \n"
         ],
         "media":null,
-        "trigger":null
-    },
-    "STEP_6":{
-        "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
-        ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
-    },
-    "STEP_7":{
-        "replyMessage":[
-            "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_8":{
-        "replyMessage":[
-            "Esto es una nota de voz \n"
-        ],
-        "media":"nota-de-voz.mp3",
         "trigger":null
     }
 }
